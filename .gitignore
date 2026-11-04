@@ -56,6 +56,29 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 
-# .ijfw
+## A streamlined .gitignore for projects using IJFW (It Just F*cking Works)
+## Ferrox Labs' shared development infrastructure for AI-driven teams.
+## It separates runtime state (.ijfw/, local-only) from committed
+## team conventions, and keeps intermediate artifacts out of version control.
+##
+## Get latest from https://github.com/FerroxLabs/ijfw
+
+# IJFW runtime state — per-install, not source
 .ijfw/
+
+# Team layer — committed so conventions ride along with the repo
 !.ijfw/team/
+
+# User-project IJFW runtime artifacts (sessions, dump, metrics, etc.)
+ijfw/
+
+# IJFW runtime database and derived indexes
+*.db
+*.db-journal
+
+# Raw result blobs and session receipts — NEVER commit
+raw/
+receipts/
+
+# Optional: share wiki knowledge with the team
+# !ijfw/wiki/
