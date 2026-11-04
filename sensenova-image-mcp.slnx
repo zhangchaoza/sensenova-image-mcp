@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SensenovaImageMcp.Tests/SensenovaImageMcp.Tests.csproj" />
+  <Project Path="SensenovaImageMcp/SensenovaImageMcp.csproj" />
+</Solution>

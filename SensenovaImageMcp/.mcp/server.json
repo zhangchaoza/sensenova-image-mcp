@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "description": "MCP server exposing SenseNova (SenseNova U1.5 Lite / U1.5 Fast) image generation and image editing tools.",
+  "name": "io.github.zhangchao/sensenova-image-mcp",
+  "version": "0.1.0-beta",
+  "packages": [
+    {
+      "registryType": "nuget",
+      "identifier": "sensenova-image-mcp",
+      "version": "0.1.0-beta",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [],
+      "environmentVariables": [
+        {
+          "name": "SENSENOVA_IMAGE_MCP_KEY",
+          "description": "SenseNova API key used to authenticate image generation and editing requests.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/zhangchao/sensenova-image-mcp",
+    "source": "github"
+  }
+}
