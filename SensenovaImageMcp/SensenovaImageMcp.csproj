@@ -21,7 +21,6 @@
     <!-- Set recommended package metadata -->
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageId>SensenovaImageMcp</PackageId>
-    <PackageVersion>0.1.0-beta</PackageVersion>
     <PackageTags>AI; MCP; server; stdio; sensenova; image</PackageTags>
     <Description>An MCP server exposing SenseNova U1.5 image generation and editing tools.</Description>
   </PropertyGroup>
@@ -33,6 +32,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="GitVersion.MsBuild" Version="6.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.14" />
     <PackageReference Include="ModelContextProtocol" Version="2.1.0" />
   </ItemGroup>
