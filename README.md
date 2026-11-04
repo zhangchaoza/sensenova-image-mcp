@@ -12,7 +12,7 @@ Both tools accept a `fastMode` parameter: when `true` the faster **SenseNova U1.
 
 ## Requirements
 
-- [.NET SDK 11](https://dotnet.microsoft.com/download) (the project targets `net11.0`).
+- [.NET SDK 10](https://dotnet.microsoft.com/download) (the project targets `net10.0`).
 - A [SenseNova API key](https://platform.sensenova.cn/) provided via the
   `SENSENOVA_IMAGE_MCP_KEY` environment variable.
 
