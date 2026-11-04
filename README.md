@@ -1,5 +1,13 @@
 # SenseNova Image MCP
 
+[![NuGet](https://img.shields.io/nuget/v/SensenovaImageMcp.svg)](https://www.nupkg.org/packages/SensenovaImageMcp)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/SensenovaImageMcp.svg)](https://www.nupkg.org/packages/SensenovaImageMcp)
+[![CI](https://github.com/zhangchaoza/sensenova-image-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/zhangchaoza/sensenova-image-mcp/actions/workflows/ci.yml)
+[![CD](https://github.com/zhangchaoza/sensenova-image-mcp/actions/workflows/cd.yml/badge.svg)](https://github.com/zhangchaoza/sensenova-image-mcp/actions/workflows/cd.yml)
+[![GitHub Release](https://img.shields.io/github/v/release/zhangchaoza/sensenova-image-mcp)](https://github.com/zhangchaoza/sensenova-image-mcp/releases)
+[![License](https://img.shields.io/github/license/zhangchaoza/sensenova-image-mcp)](https://github.com/zhangchaoza/sensenova-image-mcp/blob/main/LICENSE)
+[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4)](https://dotnet.microsoft.com/download)
+
 An MCP server (C#/.NET) that exposes SenseTime **SenseNova** image models through tools:
 
 - `generate-image` — text-to-image generation.
